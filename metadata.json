@@ -1,0 +1,6 @@
+{
+  "name": "Gallery",
+  "description": "System Gallery for Android with OneDrive Sync.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}

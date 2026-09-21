@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="Gallery flower icon">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8f8a83"/>
+      <stop offset="1" stop-color="#6d6963"/>
+    </linearGradient>
+    <linearGradient id="petalA" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#dcdcdc"/>
+    </linearGradient>
+    <linearGradient id="petalB" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ececec"/>
+      <stop offset="1" stop-color="#bdbdbd"/>
+    </linearGradient>
+    <radialGradient id="core" cx="0.35" cy="0.3" r="0.8">
+      <stop offset="0" stop-color="#ffb04a"/>
+      <stop offset="0.55" stop-color="#f26b21"/>
+      <stop offset="1" stop-color="#d94a1c"/>
+    </radialGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="6" stdDeviation="7" flood-color="#000" flood-opacity="0.28"/>
+    </filter>
+    <path id="petal" d="M256 256 C226 232 206 190 212 142 C216 112 238 98 256 98 C274 98 296 112 300 142 C306 190 286 232 256 256 Z"/>
+  </defs>
+
+  <!-- Squircle background -->
+  <rect x="24" y="24" width="464" height="464" rx="140" fill="url(#bg)"/>
+  <rect x="24" y="24" width="464" height="464" rx="140" fill="none" stroke="#ffffff" stroke-opacity="0.22" stroke-width="3"/>
+
+  <!-- Petals: six, rotated 30° from the original, alternating two tones -->
+  <g filter="url(#shadow)">
+    <g transform="rotate(30 256 256)">
+      <use href="#petal" fill="url(#petalA)"/>
+      <use href="#petal" fill="url(#petalB)" transform="rotate(60 256 256)"/>
+      <use href="#petal" fill="url(#petalA)" transform="rotate(120 256 256)"/>
+      <use href="#petal" fill="url(#petalB)" transform="rotate(180 256 256)"/>
+      <use href="#petal" fill="url(#petalA)" transform="rotate(240 256 256)"/>
+      <use href="#petal" fill="url(#petalB)" transform="rotate(300 256 256)"/>
+    </g>
+  </g>
+
+  <!-- Center: glowing orange core with ring and highlight -->
+  <circle cx="256" cy="256" r="46" fill="#ffffff" fill-opacity="0.9"/>
+  <circle cx="256" cy="256" r="36" fill="url(#core)"/>
+  <ellipse cx="246" cy="243" rx="12" ry="8" fill="#ffffff" fill-opacity="0.45" transform="rotate(-30 246 243)"/>
+</svg>

@@ -3,10 +3,15 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0b0b1f,50:1c0f3f,100:2a1b50&height=220&section=header&text=skye7x&fontSize=60&fontColor=8a8ab0&animation=fadeIn&fontAlignY=38" />
 </p>
 
+
 ![Gallery](github/assets/file_00000000122081f4b89e77a1725b3a1e.png)
+
+<span>Photo was generated using Artificial Intelligence. </span>
+
 <h1 align="center" style="font-size: 124px;">
   Gallery
 </h1>
+
 <p align="center">
   <a href="https://buymeacoffee.com/bartus77">
     <img src="https://img.shields.io/badge/Buy%20Me%20A%20Coffee-bartus77-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=black" />
